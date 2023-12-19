@@ -3,10 +3,10 @@
    <description></description>
    <name>test</name>
    <tag></tag>
-   <UUID>5ae49ecf-af6c-4952-9f80-2d9b21d44b49</UUID>
+   <UUID>28bce957-1e26-4d2a-9862-daaf4aefdefd</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\chien.trang\Katalon Studio\sample-project-studioassist\test.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\thesr\Katalon Studio\com.projectNovWeekend\test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

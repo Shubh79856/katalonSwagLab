@@ -17,18 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('LoginTest'), [:], FailureHandling.STOP_ON_FAILURE)
 
-/**
- * This script is for the other test cases to call
- */
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
+WebUI.scrollToElement(findTestObject('HomePageObjects/linkedinLink'), 5)
 
-WebUI.click(findTestObject('null'))
+WebUI.verifyElementText(findTestObject('HomePageObjects/linkedinLink'), 'LinkedIn', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), Username)
-
-WebUI.setText(findTestObject('null'), Password)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)

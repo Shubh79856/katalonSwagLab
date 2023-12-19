@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * Get all rows of HTML table\r\n\t * @param table Katalon test object represent for HTML table\r\n\t * @param outerTagName outer tag name of TR tag, usually is TBODY\r\n\t * @return All rows inside HTML table \r\n\t */"
         },
         {
           "name": "getHtmlTableColumns",
@@ -64,10 +65,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * Get all cells of HTML table row\r\n\t * @param row a WebElement instance represent for HTML table row \r\n\t * @param tagName HTML column tag name, usually is TD/TH\r\n\t * @return All cells inside HTML table row \r\n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hamburgerListOptions</name>
+   <tag></tag>
+   <elementGuidId>8c06ae15-64b3-416a-b513-15bda1ff7c76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//nav[@class='bm-item-list']//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//nav[@class='bm-item-list']//a</value>
+      <webElementGuid>ac0c1791-89e2-49c4-b304-020c578e8a5d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -17,18 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://www.saucedemo.com/')
 
-/**
- * This script is for the other test cases to call
- */
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('null'))
+WebUI.sendKeys(findTestObject('LoginPage/userName'), 'standard_user')
 
-WebUI.setText(findTestObject('null'), Username)
+WebUI.sendKeys(findTestObject('LoginPage/password'), 'secret_sauce')
 
-WebUI.setText(findTestObject('null'), Password)
+WebUI.click(findTestObject('LoginPage/loginBtn'))
 
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)

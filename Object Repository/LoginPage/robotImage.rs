@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>robotImage</name>
+   <tag></tag>
+   <elementGuidId>750dbfe3-f986-46cc-8b08-7a7f1ecafa34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@class='bot_column']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@class='bot_column']</value>
+      <webElementGuid>17b9e44f-18e4-49d4-a302-21232a9a81ce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

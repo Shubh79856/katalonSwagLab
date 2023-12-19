@@ -17,18 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-/**
- * This script is for the other test cases to call
- */
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), Username)
-
-WebUI.setText(findTestObject('null'), Password)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)

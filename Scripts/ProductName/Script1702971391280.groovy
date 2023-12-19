@@ -17,18 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('LoginTest'), [:], FailureHandling.STOP_ON_FAILURE)
 
-/**
- * This script is for the other test cases to call
- */
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
+def actualList = WebUI.findWebElements(findTestObject('Object Repository/HomePageObjects/productNamesList'), 10)
 
-WebUI.click(findTestObject('null'))
+List<String> productList = new ArrayList<String>(Arrays.asList("Sauce Labs Backpack","Sauce Labs Bike Light","Sauce Labs Bolt T-Shirt","Sauce Labs Fleece Jacket","Sauce Labs Onesie","Test.allTheThings() T-Shirt (Red)"))
 
-WebUI.setText(findTestObject('null'), Username)
-
-WebUI.setText(findTestObject('null'), Password)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)

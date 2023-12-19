@@ -17,18 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('LoginTest'), [:], FailureHandling.STOP_ON_FAILURE)
 
-/**
- * This script is for the other test cases to call
- */
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
+WebUI.click(findTestObject('HomePageObjects/hamburgerBTN'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('HomePageObjects/logoutBTN'))
 
-WebUI.setText(findTestObject('null'), Username)
+WebUI.verifyElementVisible(findTestObject('LoginPage/loginBtn'))
 
-WebUI.setText(findTestObject('null'), Password)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)

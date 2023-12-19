@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<projectSuggestions>
+    <declaringtype type="com.kms.katalon.core.testobject.ObjectRepository">
+        <method isActive="true" isStatic="false" name="com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/HomePageObjects/hamburgerListOptions)" type="com.kms.katalon.core.testobject.TestObject">
+            <parameters useNamedArguments="false"/>
+            <doc/>
+        </method>
+    </declaringtype>
+</projectSuggestions>

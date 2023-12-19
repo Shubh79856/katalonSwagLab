@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test is  to validate all the hamberger list options</description>
+   <name>ValidateHambergerOptions</name>
+   <tag>SMOKE</tag>
+   <comment></comment>
+   <testCaseGuid>90cd0684-4fdf-4064-a3f7-545c6753470f</testCaseGuid>
+</TestCaseEntity>

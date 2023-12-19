@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ProductName</name>
+   <name>ProductListValidation</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>14f445af-7822-4ced-acea-2b6b031f7b11</testCaseGuid>

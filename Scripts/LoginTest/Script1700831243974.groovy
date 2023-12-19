@@ -25,5 +25,13 @@ WebUI.sendKeys(findTestObject('LoginPage/userName'), 'standard_user')
 
 WebUI.sendKeys(findTestObject('LoginPage/password'), 'secret_sauce')
 
+WebUI.verifyElementPresent(findTestObject('LoginPage/loginBtn'), 5)
+
 WebUI.click(findTestObject('LoginPage/loginBtn'))
+
+def actualTitle = WebUI.getWindowTitle()
+
+String expectedTitle = "Swag Labs"
+
+WebUI.verifyMatch(expectedTitle, actualTitle, true)
 

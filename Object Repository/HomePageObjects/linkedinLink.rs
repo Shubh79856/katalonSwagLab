@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@class = 'social_linkedin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>social_linkedin</value>
-      <webElementGuid>e9386896-abc4-4eb1-9107-faa97d0dfd58</webElementGuid>
+      <webElementGuid>87bc7a84-21c5-4466-871e-ef169614bf92</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

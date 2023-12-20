@@ -21,6 +21,10 @@ WebUI.openBrowser('https://www.saucedemo.com/')
 
 WebUI.maximizeWindow()
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/LoginPage/userName'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/LoginPage/password'), 5, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.sendKeys(findTestObject('LoginPage/userName'), 'standard_user')
 
 WebUI.sendKeys(findTestObject('LoginPage/password'), 'secret_sauce')
@@ -31,7 +35,9 @@ WebUI.click(findTestObject('LoginPage/loginBtn'))
 
 def actualTitle = WebUI.getWindowTitle()
 
-String expectedTitle = "Swag Labs"
+String expectedTitle = 'Swag Labs'
 
 WebUI.verifyMatch(expectedTitle, actualTitle, true)
+
+
 

@@ -21,6 +21,8 @@ WebUI.callTestCase(findTestCase('LoginTest'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.click(findTestObject('HomePageObjects/hamburgerBTN'))
 
+WebUI.verifyElementText(findTestObject('HomePageObjects/logoutBTN'), 'Logout')
+
 WebUI.click(findTestObject('HomePageObjects/logoutBTN'))
 
 WebUI.verifyElementVisible(findTestObject('LoginPage/loginBtn'))

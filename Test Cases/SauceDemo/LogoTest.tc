@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to validate that the logo image is displayed on the login page</description>
+   <name>LogoTest</name>
+   <tag>SMOKE</tag>
+   <comment></comment>
+   <testCaseGuid>4e48fe00-8fcc-4be6-98c5-d92aae500ab2</testCaseGuid>
+</TestCaseEntity>

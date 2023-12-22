@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test is to validate the shopping cart page navigation test</description>
+   <name>ShoppingCartPageTest</name>
+   <tag>SMOKE</tag>
+   <comment></comment>
+   <testCaseGuid>738ee0aa-4038-493e-bfd6-7a43c9b8d790</testCaseGuid>
+</TestCaseEntity>

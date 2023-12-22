@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is used to verify the login feature</description>
+   <name>LoginTest</name>
+   <tag>SMOKE</tag>
+   <comment></comment>
+   <testCaseGuid>b28f28ef-8b79-4803-af1d-eba6e1dfe868</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test is to perform the login logout cycle</description>
+   <name>Logout</name>
+   <tag>SMOKE</tag>
+   <comment></comment>
+   <testCaseGuid>fc3182bc-82b6-466d-90ce-4d4743ed2819</testCaseGuid>
+</TestCaseEntity>

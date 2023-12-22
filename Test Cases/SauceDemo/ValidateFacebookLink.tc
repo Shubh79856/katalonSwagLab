@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test is used to validate the facebook link present on the footer of the page</description>
+   <name>ValidateFacebookLink</name>
+   <tag>SMOKE</tag>
+   <comment></comment>
+   <testCaseGuid>c93b3596-db70-43c4-b265-28fdff203cb7</testCaseGuid>
+</TestCaseEntity>

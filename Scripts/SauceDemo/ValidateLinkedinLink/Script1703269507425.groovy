@@ -23,3 +23,6 @@ WebUI.scrollToElement(findTestObject('HomePageObjects/linkedinLink'), 5)
 
 WebUI.verifyElementText(findTestObject('HomePageObjects/linkedinLink'), 'LinkedIn', FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshotAsCheckpoint('Linkedin Link Page')
+
+WebUI.closeBrowser()

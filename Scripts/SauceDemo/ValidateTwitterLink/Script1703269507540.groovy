@@ -23,3 +23,6 @@ WebUI.scrollToElement(findTestObject('HomePageObjects/facebookIcon'), 5)
 
 WebUI.verifyElementText(findTestObject('Object Repository/HomePageObjects/facebookIcon'), 'Facebook', FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshotAsCheckpoint('Twitter Link Page')
+WebUI.closeBrowser()
+

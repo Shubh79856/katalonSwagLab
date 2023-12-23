@@ -39,5 +39,5 @@ String expectedTitle = 'Swag Labs'
 
 WebUI.verifyMatch(expectedTitle, actualTitle, true)
 
-WebUI.takeScreenshotAsCheckpoint('LoginPage', [])
+WebUI.takeScreenshotAsCheckpoint('Login Page')
 

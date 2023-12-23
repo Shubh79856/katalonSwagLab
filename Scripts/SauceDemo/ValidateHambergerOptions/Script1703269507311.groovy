@@ -24,3 +24,6 @@ for(var in hamburgerList)
 }
 
 
+WebUI.takeScreenshotAsCheckpoint('Hamberger Link Page')
+
+WebUI.closeBrowser()

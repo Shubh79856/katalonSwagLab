@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('LoginTest'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('HomePageObjects/cartIcon'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/HomePageObjects/cartPageHeader'), 'Your Cart', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshotAsCheckpoint('Cart Page')
+
+WebUI.closeBrowser()
+

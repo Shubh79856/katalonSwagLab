@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'subheader']</value>
+         <value>//span[text()='Your Cart']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>subheader</value>
-      <webElementGuid>a2a0f9b2-17e7-4bbb-8529-92d2e0f0cf1c</webElementGuid>
+      <value>//span[text()='Your Cart']</value>
+      <webElementGuid>edccc7a0-db2e-4a6e-8bdd-52f7e8708843</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

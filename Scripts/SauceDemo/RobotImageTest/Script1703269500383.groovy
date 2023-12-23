@@ -22,4 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
 
 WebUI.verifyElementVisible(findTestObject('LoginPage/robotImage'))
+WebUI.takeScreenshotAsCheckpoint('Robot Page')
+
+WebUI.closeBrowser()
 

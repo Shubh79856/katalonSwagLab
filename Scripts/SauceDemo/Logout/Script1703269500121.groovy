@@ -27,3 +27,6 @@ WebUI.click(findTestObject('HomePageObjects/logoutBTN'))
 
 WebUI.verifyElementVisible(findTestObject('LoginPage/loginBtn'))
 
+WebUI.takeScreenshotAsCheckpoint('Logout Page')
+
+WebUI.closeBrowser()

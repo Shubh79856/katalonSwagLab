@@ -23,5 +23,6 @@ WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
 
 WebUI.verifyElementVisible(findTestObject('LoginPage/logoImage'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('LogoPage')
+WebUI.takeScreenshotAsCheckpoint('Logo Page')
+WebUI.closeBrowser()
 
